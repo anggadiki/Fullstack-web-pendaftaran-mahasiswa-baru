@@ -1,0 +1,1 @@
+Untuk menjalankan bisa memakai file utama pada app.py atau bisa menggunakan testing.py untuk backup apa bila terjadi eror

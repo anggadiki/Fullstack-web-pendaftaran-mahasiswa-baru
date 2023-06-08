@@ -1,0 +1,186 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+img {
+  height: 2cm;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+}
+
+h4 {
+  margin-top: 1.5rem;
+  text-align: center;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: #f0c808;
+}
+
+h2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #343a40;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Wrapper Styles */
+.wrapper {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  height: 100%;
+  width: 200px;
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px;
+}
+
+.sidebar img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.sidebar p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.sidebar .list-unstyled {
+  margin-top: 30px;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 5px 0;
+}
+
+.sidebar li a:hover {
+  background-color: #4e545b;
+  border-radius: 5px;
+}
+
+/* Content Styles */
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.content h2 {
+  text-align: center;
+  margin-top: 30px;
+  color: #343a40;
+}
+
+/* Tab Styles */
+.nav-tabs {
+  margin-top: 30px;
+}
+
+.nav-tabs .nav-link {
+  color: #333;
+  background-color: #FFD95A;
+  /* Warna latar belakang */
+  border: none;
+  border-bottom: 2px solid transparent;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  transition: border-color 0.3s;
+}
+
+.nav-tabs .nav-link:hover {
+  border-color: #333;
+  background-color: #FFD95A;
+  /* Warna latar belakang saat dihover */
+}
+
+.nav-tabs .nav-link.active {
+  border-color: #333;
+  background-color: #FFD95A;
+  /* Warna latar belakang saat aktif */
+}
+
+.tab-pane h4 {
+  margin-top: 0;
+  text-align: center;
+  color: #343a40;
+}
+
+/* Table Styles */
+.table {
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+.table thead {
+  background-color: #343a40;
+  /* Warna latar belakang header */
+  color: #fff;
+}
+
+.table th,
+.table td {
+  text-align: left;
+  padding: 8px;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f5f5f5;
+  /* Warna latar belakang baris genap */
+}
+
+.table tbody tr:hover {
+  background-color: #ebebeb;
+  /* Warna latar belakang saat dihover */
+}
+
+/* Button Styles */
+.btn {
+  background-color: #343a40;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #f0c808;
+}
+
+.btn-primary:hover {
+  background-color: #e0b700;
+}
+
+.btn-primary:active {
+  background-color: #cfab00;
+}

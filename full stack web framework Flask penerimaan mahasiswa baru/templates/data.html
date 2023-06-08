@@ -1,0 +1,56 @@
+<!-- File: index.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Data Biodata</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Data Biodata</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Nama Lengkap</th>
+                <th>Alamat</th>
+                <th>Tempat Lahir</th>
+                <th>Tanggal Lahir</th>
+                <th>Sekolah Asal</th>
+                <th>Tahun Lulus</th>
+                <th>Jenis Kelamin</th>
+                <th>Agama</th>
+                <th>Email</th>
+                <th>No. HP</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for biodata in data %}
+            <tr>
+                <td>{{ biodata[1] }}</td>
+                <td>{{ biodata[2] }}</td>
+                <td>{{ biodata[3] }}</td>
+                <td>{{ biodata[4] }}</td>
+                <td>{{ biodata[5] }}</td>
+                <td>{{ biodata[6] }}</td>
+                <td>{{ biodata[7] }}</td>
+                <td>{{ biodata[8] }}</td>
+                <td>{{ biodata[9] }}</td>
+                <td>{{ biodata[10] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+
+</html>
